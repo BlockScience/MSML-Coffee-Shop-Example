@@ -1,8 +1,8 @@
-from .Types import Time
+from Types import TimeType
 
-global_state = {"Name": "Global State",
+system_state = {"Name": "Global State",
                 "notes": "The system-wide state",
-                "variables": [{"type": Time,
+                "variables": [{"type": TimeType,
                                "name": "Time",
                                "description": "System clock",
                                "symbol": "T",
