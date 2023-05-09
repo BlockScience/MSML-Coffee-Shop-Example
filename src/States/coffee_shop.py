@@ -1,4 +1,4 @@
-from Types import TimeType, NumberBaristasType, ConsumerType, ConsumersServedType, CurrencyType
+from Types import NumberBaristasType, ConsumerType, ConsumersServedType, CurrencyType
 from typing import List
 
 coffee_shop_state = {"name": "Coffee Shop State",
